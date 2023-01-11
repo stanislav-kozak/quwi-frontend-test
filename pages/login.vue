@@ -4,6 +4,8 @@
 
 <script>
 export default {
-  name: 'Dashboard',
+  name: "Login",
+  layout: 'login',
+  auth: 'guest',
 }
 </script>

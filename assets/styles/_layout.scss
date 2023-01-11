@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.header {
+  display: block;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0 0 12px rgb(0 0 0 / 25%);
+  -moz-box-shadow: 0 0 12px rgb(0 0 0 / 25%);
+  box-shadow: 0 0 12px rgb(0 0 0 / 25%);
+
+  &__links {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px !important;
+  }
+}
+
+.content {
+  height: 100%;
+  background-color: $white2;
+  overflow: auto;
+}
